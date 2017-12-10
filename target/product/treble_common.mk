@@ -216,3 +216,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+-include vendor/hardware/overlay/overlay.mk
