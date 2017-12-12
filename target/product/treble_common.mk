@@ -214,6 +214,6 @@ PRODUCT_PACKAGES += \
 
 # May need to review why the followings are needed in generic system image.
 PRODUCT_COPY_FILES += \
-    device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml
+    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 -include vendor/hardware/overlay/overlay.mk
